@@ -1,0 +1,190 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Dec 12 15:52:00 2024
+# Process ID: 14196
+# Current directory: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13580 C:\Users\mu08984\Desktop\WED_FINAL1\COMBINED\wasiq_magic\dld_project\dld_project.xpr
+# Log file: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/vivado.log
+# Journal file: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 15:52:20 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF304FA
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 15:55:24 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 15:55:24 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Thu Dec 12 15:59:19 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 16:04:51 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 16:04:51 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 16:11:22 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 16:11:22 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 16:15:56 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 16:15:56 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 16:21:04 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 16:21:04 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 16:26:24 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 16:26:24 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Thu Dec 12 16:29:40 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 16:30:38 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 16:30:38 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 17:14:48 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 17:14:48 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 17:59:37 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 17:59:37 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Thu Dec 12 18:00:46 2024] Launched synth_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log
+[Thu Dec 12 18:00:46 2024] Launched impl_1...
+Run output will be captured here: C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 12 18:07:58 2024...

@@ -1,0 +1,2775 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 23508
+License: Customer
+
+Current time: 	Wed Dec 04 12:09:00 PKT 2024
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	mu08984
+User home directory: C:/Users/mu08984
+User working directory: C:/Users/mu08984/Desktop/wasiq_magic/dld_project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/mu08984/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/mu08984/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/mu08984/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/mu08984/Desktop/wasiq_magic/dld_project/vivado.log
+Vivado journal file location: 	C:/Users/mu08984/Desktop/wasiq_magic/dld_project/vivado.jou
+Engine tmp dir: 	C:/Users/mu08984/Desktop/wasiq_magic/dld_project/.Xil/Vivado-23508-HU-DOPX-PWL03
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	225 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,018 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\mu08984\Desktop\wasiq_magic\dld_project\dld_project.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 70 MB (+71070kb) [00:00:04]
+// [Engine Memory]: 1,018 MB (+915565kb) [00:00:04]
+// [GUI Memory]: 89 MB (+16064kb) [00:00:05]
+// [GUI Memory]: 111 MB (+18433kb) [00:00:05]
+// WARNING: HEventQueue.dispatchEvent() is taking  1423 ms.
+// Tcl Message: open_project C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Project name: dld_project; location: C:/Users/mu08984/Desktop/wasiq_magic/dld_project; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// [GUI Memory]: 123 MB (+6745kb) [00:00:07]
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 66 MB. Current time: 12/4/24, 12:09:01 PM PKT
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, integrated_system (integrated_system.v)]", 5, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, integrated_system (integrated_system.v)]", 5, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// [GUI Memory]: 134 MB (+5508kb) [00:00:14]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 7, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), digit_rom : score_digit_rom (score_digit_rom.v)]", 8, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("integrated_game.v", 634, 208); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 19, true); // u (J, cs) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 19, true); // u (J, cs) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, integrated_system (integrated_system.v)]", 5); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 3, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectCodeEditor("top_game.v", 169, 386); // bP (w, cs)
+selectCodeEditor("top_game.v", 109, 199, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectCodeEditor("top_game.v", 70, 300); // bP (w, cs)
+selectCodeEditor("top_game.v", 196, 385); // bP (w, cs)
+selectCodeEditor("top_game.v", 196, 402); // bP (w, cs)
+selectCodeEditor("top_game.v", 323, 417); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 1); // m (l, cs)
+selectCodeEditor("top_game.v", 190, 399); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// f (cs): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 142 MB (+297kb) [00:01:12]
+// Tcl Message: [Wed Dec  4 12:10:06 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:10:06 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag (cs)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/constrs_1/new/vga_connector.xdc:37]. ]", 1); // ah (J, cs)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/constrs_1/new/vga_connector.xdc:37]. ]", 1); // ah (J, cs)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aL (aI, cs)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cs)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL (aI, cs)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/constrs_1/new/vga_connector.xdc:37]. ]", 1, true); // ah (J, cs) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/constrs_1/new/vga_connector.xdc:37]. ]", 1, true); // ah (J, cs) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/constrs_1/new/vga_connector.xdc:37]. ]", 1); // ah (J, cs)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/constrs_1/new/vga_connector.xdc:37]. ]", 1); // ah (J, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 12:10:40 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:10:40 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag (cs)
+selectCodeEditor("top_game.v", 139, 412); // bP (w, cs)
+selectCodeEditor("top_game.v", 65, 276); // bP (w, cs)
+selectCodeEditor("top_game.v", 154, 401); // bP (w, cs)
+selectCodeEditor("top_game.v", 88, 239, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E (g, cs)
+selectCodeEditor("top_game.v", 181, 220); // bP (w, cs)
+selectCodeEditor("top_game.v", 175, 229); // bP (w, cs)
+selectCodeEditor("top_game.v", 181, 232); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E (g, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("top_game.v", 224, 231); // bP (w, cs)
+selectCodeEditor("top_game.v", 199, 338); // bP (w, cs)
+selectCodeEditor("top_game.v", 260, 155); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 12:11:31 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:11:31 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 1); // m (l, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 73 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cs):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+dismissDialog("Open Hardware Manager"); // bz (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bz (cs):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2020.1   **** Build date : May 27 2020 at 20:24:38     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ****** Xilinx cs_server v2020.1.0   **** Build date : May 14 2020-06:10:29     ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1027.543 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2601 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF304FA 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,184 MB. GUI used memory: 82 MB. Current time: 12/4/24, 12:13:12 PM PKT
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// [Engine Memory]: 2,187 MB (+1172927kb) [00:04:18]
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 11 seconds
+dismissDialog("Auto Connect"); // bz (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 31 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 3); // B (F, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectCodeEditor("integrated_system.v", 216, 179); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 191, 193); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 186, 182); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("integrated_system.v", 23, 223); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 54, 346); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,214 MB. GUI used memory: 82 MB. Current time: 12/4/24, 12:14:26 PM PKT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectCodeEditor("integrated_game.v", 422, 252); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 450, 266); // bP (w, cs)
+typeControlKey(null, null, 'z');
+selectCodeEditor("integrated_game.v", 502, 160); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 502, 129); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectCodeEditor("integrated_system.v", 305, 257); // bP (w, cs)
+// Elapsed time: 79 seconds
+selectCodeEditor("integrated_system.v", 320, 206); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 322, 16); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectCodeEditor("integrated_game.v", 520, 365); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, integrated_system (integrated_system.v)]", 5); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, integrated_system (integrated_system.v), jsq_inst : jumping_mario (jump_gen.v)]", 6, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, integrated_system (integrated_system.v), jsq_inst : jumping_mario (jump_gen.v)]", 6, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, integrated_system (integrated_system.v)]", 5); // B (F, cs)
+selectCodeEditor("jump_gen.v", 293, 116); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectCodeEditor("integrated_game.v", 325, 157); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 323, 118); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 311, 174); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectCodeEditor("top_game.v", 181, 187); // bP (w, cs)
+selectCodeEditor("top_game.v", 177, 413); // bP (w, cs)
+selectCodeEditor("top_game.v", 376, 297); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 12:16:36 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:16:36 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag (cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'enemy1_x_reg' does not exist for instance 'ipg_inst' of module 'integrated_pixel_gen' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:61]. ]", 1, true); // ah (J, cs) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'enemy1_x_reg' does not exist for instance 'ipg_inst' of module 'integrated_pixel_gen' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:61]. ]", 1); // ah (J, cs)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6156] failed synthesizing module 'integrated_system' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:3]. ]", 9); // ah (J, cs)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6156] failed synthesizing module 'integrated_system' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:3]. ]", 9); // ah (J, cs)
+selectCodeEditor("top_game.v", 454, 322); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectCodeEditor("integrated_system.v", 299, 378); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 328, 354); // bP (w, cs)
+// Elapsed time: 109 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'enemy1_x_reg' does not exist for instance 'ipg_inst' of module 'integrated_pixel_gen' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:61]. , [Synth 8-448] named port connection 'enemy1_y_reg' does not exist for instance 'ipg_inst' of module 'integrated_pixel_gen' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:62]. ]", 2, false, false, true, false, false, false); // ah (J, cs) - Control Key
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'enemy1_x_reg' does not exist for instance 'ipg_inst' of module 'integrated_pixel_gen' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:61]. , [Synth 8-448] named port connection 'enemy2_x_reg' does not exist for instance 'ipg_inst' of module 'integrated_pixel_gen' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:63]. ]", 3, false, false, true, false, false, false); // ah (J, cs) - Control Key
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1, false, true); // m (l, cs) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // K (aI, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jump_gen.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 231, 149); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 236, 161); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 265, 384); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 68, 399); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 38, 399); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 58, 402); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 58, 402, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_system.v", 63, 408); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 56, 401); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 56, 401, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_system.v", 60, 416); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 46, 398); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 40, 171); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 51, 167); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 41, 167); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+// Elapsed time: 31 seconds
+selectCodeEditor("integrated_game.v", 222, 163); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 452, 144); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,256 MB. GUI used memory: 84 MB. Current time: 12/4/24, 12:20:47 PM PKT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 501, 148); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 459, 167); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 40, 148); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 40, 148, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 23 seconds
+selectCodeEditor("integrated_game.v", 70, 146); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 62, 163); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 46, 177); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 46, 177, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 48, 190); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 48, 190, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+// 'cD' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cs)
+selectCodeEditor("integrated_game.v", 980, 337); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 455, 415); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 557, 169); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 1396, 282); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 770, 151); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 170, 137); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 170, 137, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 507, 102); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// f (cs): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 12:22:25 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:22:25 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("integrated_game.v", 766, 346); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 625, 304); // bP (w, cs)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag (cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'ENEMY1_WIDTH' does not exist for instance 'ipg_inst' of module 'integrated_pixel_gen' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:65]. ]", 1, true); // ah (J, cs) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-448] named port connection 'ENEMY1_WIDTH' does not exist for instance 'ipg_inst' of module 'integrated_pixel_gen' [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:65]. ]", 1); // ah (J, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 75, 150); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 72, 151); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 144, 248); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 118, 227); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 118, 227, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_system.v", 238, 230); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 215, 230); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 214, 230, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_system.v", 93, 226); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 258, 193); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 174, 185); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 174, 185, false, false, false, false, true); // bP (w, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 119, 227); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 119, 227, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_system.v", 305, 359); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 306, 349); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 306, 349, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_system.v", 306, 349, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectCodeEditor("integrated_system.v", 280, 353); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 121, 225); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 125, 228, false, false, false, false, true); // bP (w, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 167, 178); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 260, 178); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 179, 195); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 263, 195); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 285, 249); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 71, 228); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 71, 228, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_system.v", 300, 338); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 300, 338, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_system.v", 309, 350); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 309, 350, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 95, 228); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 95, 228, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 199, 250); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 199, 250, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 113, 239); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 114, 239, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 194, 259); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 194, 259, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 100, 260); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 100, 260, false, true, false, false, true); // bP (w, cs) - Control Key - Double Click
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 186, 283); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 186, 283, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 90, 278); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 90, 278, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 458, 292); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: [Wed Dec  4 12:23:51 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:23:51 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 158, 174); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 354, 280); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 58 seconds
+selectCodeEditor("integrated_system.v", 109, 309); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 111, 287); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 111, 287, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_system.v", 417, 269); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 14 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+selectCodeEditor("integrated_system.v", 736, 481); // bP (w, cs)
+// Elapsed time: 10 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, vga_connector.xdc]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, vga_connector.xdc]", 8, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, vga_connector.xdc]", 8, false, false, false, false, false, true); // B (F, cs) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("TopLevelModule.v", 195, 61); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 190, 101); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 191, 112); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("TopLevelModule.v", 314, 179); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 113, 226); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 136, 115); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jump_gen.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 4); // m (l, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, vga_connector.xdc]", 5, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, vga_connector.xdc]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("vga_connector.xdc", 390, 439); // bP (w, cs)
+selectCodeEditor("vga_connector.xdc", 368, 452); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 4); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 146, 151); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 111, 128); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 219, 91); // bP (w, cs)
+typeControlKey((HResource) null, "TopLevelModule.v", 'v'); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 210, 118); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 232, 164); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TopLevelModule.v", 166, 178); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 170, 205); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 67, 211); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true); // B (F, cs) - Node
+selectCodeEditor("TopLevelModule.v", 43, 218); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 24, 215); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 227, 322); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 12:26:56 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:26:56 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 83 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jump_gen.v", 3); // m (l, cs)
+selectCodeEditor("jump_gen.v", 203, 231); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 149 MB (+417kb) [00:20:17]
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: [Wed Dec  4 12:29:11 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:29:11 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 28 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// HOptionPane Error: 'The file 'C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/ TopLevelModule.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+selectButton("OptionPane.button", "OK"); // JButton (v, C)
+// 'I' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 4); // m (l, cs)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 83 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 37 seconds
+selectCodeEditor("TopLevelModule.v", 151, 40); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 151, 40, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelModule.v", 151, 40); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 222, 37); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 157, 38); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 157, 38, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelModule.v", 269, 35); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 151, 42); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 154, 42, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 4); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 285, 240); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 176, 176); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 176, 176, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelModule.v", 278, 181); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 179, 184); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 179, 184, false, false, false, false, true); // bP (w, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 294, 144); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 294, 144, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 218, 170); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 305, 193); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 305, 193, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 335, 225); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 335, 225, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 332, 229); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 190, 149); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("integrated_game.v", 888, 96); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 140, 44); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 450, 59); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 4); // m (l, cs)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+// Elapsed time: 40 seconds
+selectCodeEditor("top_game.v", 95, 45); // bP (w, cs)
+selectCodeEditor("top_game.v", 95, 45, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("top_game.v", 150, 57); // bP (w, cs)
+selectCodeEditor("top_game.v", 96, 38); // bP (w, cs)
+selectCodeEditor("top_game.v", 96, 38, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("top_game.v", 204, 239); // bP (w, cs)
+selectCodeEditor("top_game.v", 197, 249); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("top_game.v", 252, 288); // bP (w, cs)
+selectCodeEditor("top_game.v", 73, 262); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 468, 80); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 560, 110); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 220, 72); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 157, 99); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 112, 99); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 136, 119); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 206, 63); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jump_gen.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_connector.xdc", 5); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectCodeEditor("TopLevelModule.v", 213, 114); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 170, 25); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 680, 223); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jump_gen.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 4); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 176, 128); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 232, 134); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jump_gen.v", 3); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 3); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 51, 48); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 271, 92); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 173, 107); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 224, 142); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 210, 93); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 240, 151); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 204, 113); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 459, 86); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 246, 92); // bP (w, cs)
+typeControlKey((HResource) null, "TopLevelModule.v", 'c'); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 352, 126); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 655, 139); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 652, 129); // bP (w, cs)
+typeControlKey((HResource) null, "TopLevelModule.v", 'v'); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 657, 180); // bP (w, cs)
+typeControlKey((HResource) null, "TopLevelModule.v", 'v'); // bP (w, cs)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TopLevelModule.v", 267, 192); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 266, 142); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 283, 251); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: [Wed Dec  4 12:38:18 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:38:18 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+// Elapsed time: 17 seconds
+selectCodeEditor("integrated_game.v", 229, 302); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 14 seconds
+selectCodeEditor("integrated_game.v", 300, 298); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 386, 297); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("integrated_game.v", 370, 282); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 622, 89); // bP (w, cs)
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("integrated_game.v", 544, 346); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 234, 380); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 231, 370); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 55 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: [Wed Dec  4 12:40:15 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:40:15 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 91 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 3); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 707, 241); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 494, 280); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TopLevelModule.v", 325, 246); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 3); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 242, 294); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 161, 192); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+// Elapsed time: 65 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 3 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 12:44:03 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:44:03 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 78 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 3); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 229, 328); // bP (w, cs)
+// Elapsed time: 45 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("integrated_game.v", 122, 272); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 263, 60); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 293, 60); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 457, 225); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 297, 162); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 275, 208); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 161, 150); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("integrated_system.v", 156, 166); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 166, 247); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 130, 160); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 521, 196); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 138, 167); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 71, 92); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 687, 216); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 131, 129); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+// Elapsed time: 16 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 17 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: [Wed Dec  4 12:48:35 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:48:35 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag (cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2442] non-net port enable cannot be of mode input [C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/integrated_system.v:6]. ]", 1, false); // ah (J, cs)
+selectCodeEditor("integrated_system.v", 157, 231); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 177, 128); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 94, 92); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 12:49:14 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 12:49:14 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 3); // m (l, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 552, 185); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 34 seconds
+selectCodeEditor("integrated_game.v", 408, 151); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 429, 87); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 3); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,264 MB. GUI used memory: 88 MB. Current time: 12/4/24, 12:50:47 PM PKT
+// Elapsed time: 34 seconds
+selectCodeEditor("TopLevelModule.v", 275, 324); // bP (w, cs)
+// Elapsed time: 165 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 21, 92); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 93, 316); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 3); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 87, 173); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 87, 173, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelModule.v", 193, 175); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 236, 242); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 236, 242, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelModule.v", 246, 255); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 141, 211); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 141, 211, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelModule.v", 268, 232); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 268, 232, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelModule.v", 258, 268); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 258, 268, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelModule.v", 635, 265); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 288, 128); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 294, 118); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 317, 126); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("TopLevelModule.v", 248, 293); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 423, 300); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 283, 302); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 609, 317); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 23, 328); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 173, 307); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 29, 310); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 586, 397); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 474, 411); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 20, 314); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 25, 309); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 519, 394); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 484, 392); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 494, 388); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 500, 394); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 26, 330); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 24, 325); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 504, 384); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 511, 332); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 166, 335); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 417, 334); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 517, 407); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 547, 295); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 2); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 55, 43); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 173, 27); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 60, 40); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 251, 93); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 54, 45); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 239, 92); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 57, 39); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 241, 89); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 51, 39); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 254, 96); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 240, 95); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 238, 139); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 237, 88); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 246, 311); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 154, 98); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 129, 110); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 34, 126); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 165, 134); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 63, 162); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 286, 161); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 286, 161, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 482, 354); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 459, 361); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 292, 161); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 212, 362); // bP (w, cs)
+// Elapsed time: 31 seconds
+selectCodeEditor("integrated_game.v", 246, 382); // bP (w, cs)
+// Elapsed time: 21 seconds
+selectCodeEditor("integrated_game.v", 95, 332); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 442, 402); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 95, 334); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 55, 330); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 220, 328); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("integrated_game.v", 347, 244); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("integrated_game.v", 189, 250); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 96, 249); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("integrated_game.v", 89, 347); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 316, 350); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 310, 347); // bP (w, cs)
+// Elapsed time: 44 seconds
+selectCodeEditor("integrated_game.v", 647, 245); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+// Elapsed time: 27 seconds
+selectCodeEditor("integrated_game.v", 369, 316); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 47 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 13:01:08 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 13:01:08 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 79 seconds
+selectCodeEditor("integrated_game.v", 151, 356); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cs): Save Project: addNotify
+// 'cD' command handler elapsed time: 5 seconds
+dismissDialog("Save Project"); // am (cs)
+selectCodeEditor("integrated_game.v", 544, 174); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 3 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 13:02:54 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 13:02:54 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// HOptionPane Error: 'The file 'C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/ TopLevelModule.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+selectButton("OptionPane.button", "OK"); // JButton (v, C)
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 153 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 104 seconds
+selectCodeEditor("integrated_game.v", 441, 630); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 53, 243); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 58, 246); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 46, 247); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 101, 262); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 101, 256); // bP (w, cs)
+// Elapsed time: 473 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 3); // m (l, cs)
+selectCodeEditor("top_game.v", 91, 227); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 3); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v)]", 10); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 12, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 12, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 115 seconds
+selectCodeEditor("integrated_game.v", 94, 24); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 94, 24, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 108, 27, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectCodeEditor("integrated_game.v", 49, 23); // bP (w, cs)
+// Elapsed time: 53 seconds
+selectCodeEditor("integrated_game.v", 620, 544); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 2); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 288, 161); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 89, 109); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 88, 214); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy_rom1]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy_rom1]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy_rom1]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy_rom1]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy_rom1]", 14, false); // B (F, cs)
+selectCodeEditor("integrated_game.v", 96, 213); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 94, 110); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("integrated_game.v", 235, 141); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("enemy-rom.v", 82, 7); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : xil_defaultlib.enemy_rom]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : xil_defaultlib.enemy_rom]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : xil_defaultlib.enemy_rom]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy_rom]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy_rom]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : xil_defaultlib.enemy_rom]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : xil_defaultlib.enemy_rom]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("enemy-rom.v", 87, 8); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,264 MB. GUI used memory: 80 MB. Current time: 12/4/24, 1:20:48 PM PKT
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 59, 111); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 61, 210); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy1_rom]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy1_rom]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy1_rom]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy1_rom]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy1_rom]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy2_rom (enemy-rom.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy2_rom (enemy-rom.v)]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy-rom.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 64, 112); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 68, 211); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy-rom.v", 4); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("integrated_game.v", 182, 152); // bP (w, cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), end_screen : top_endscreen (top_endscreen.v)]", 16, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false); // B (F, cs)
+selectCodeEditor("enemy-rom.v", 90, 7); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 35 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+dismissDialog("Add Sources"); // c (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : enemy_rom (enemy-rom.v)]", 15, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+// 'c' command handler elapsed time: 7 seconds
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy-rom.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy-rom.v 
+// Tcl Message: file delete -force C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy-rom.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : enemy_rom (enemy-rom.v)]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : xil_defaultlib.enemy_rom]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : xil_defaultlib.enemy_rom]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : xil_defaultlib.enemy_rom]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy1_rom : xil_defaultlib.enemy_rom]", 14, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), enemy2_rom : xil_defaultlib.enemy_rom]", 15, false); // B (F, cs)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 60, 111); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 61, 215); // bP (w, cs)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "enemy1_rom"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "enemy2_rom"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 24 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy1_rom.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy1_rom.v 
+// Tcl Message: close [ open C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy2_rom.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy2_rom.v 
+// I (cs): Define Modules: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Modules"); // I (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 41 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, enemy1_rom (enemy1_rom.v)]", 18, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, enemy1_rom (enemy1_rom.v)]", 18, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("enemy1_rom.v", 94, 438); // bP (w, cs)
+// Elapsed time: 215 seconds
+selectCodeEditor("enemy1_rom.v", 45, 23); // bP (w, cs)
+typeControlKey((HResource) null, "enemy1_rom.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+selectCodeEditor("enemy1_rom.v", 81, 7); // bP (w, cs)
+selectCodeEditor("enemy1_rom.v", 81, 7, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "enemy1_rom.v", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 61, 211); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 61, 211, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 21 seconds
+selectCodeEditor("integrated_game.v", 46, 184); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 13:29:36 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 13:29:36 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 78 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 54 seconds
+selectCodeEditor("integrated_game.v", 86, 185); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 65, 178); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 47, 287); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 56, 108); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 56, 108, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+typeControlKey((HResource) null, "enemy1_rom.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 234, 122); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: [Wed Dec  4 13:32:22 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 13:32:22 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 72 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 44 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 73, 285); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 88, 273); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 103, 280); // bP (w, cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+selectCodeEditor("integrated_game.v", 80, 293); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 76, 280); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cs): Launch Runs: addNotify
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_MODIFY
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: [Wed Dec  4 13:35:17 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 49 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+selectCodeEditor("integrated_game.v", 197, 283); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 296, 179); // bP (w, cs)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 80, 298); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 74, 297); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 74, 228); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 76, 228, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 236, 311); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("integrated_game.v", 293, 427); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("integrated_game.v", 293, 281); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 298, 242); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 198, 138); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, enemy2_rom.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, enemy2_rom.v]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (F, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 3); // m (l, cs)
+selectCodeEditor("top_game.v", 414, 178); // bP (w, cs)
+selectCodeEditor("top_game.v", 317, 458); // bP (w, cs)
+selectCodeEditor("top_game.v", 168, 419); // bP (w, cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 13:37:48 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 13:37:48 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 79 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 66, 321); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 314, 387); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 91, 331); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 146, 429); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 132, 402); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+selectCodeEditor("enemy1_rom.v", 337, 199); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "bowser_rom"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "ghost_rom"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "goblin_rom"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+// Elapsed time: 12 seconds
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 47 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/goblin_rom.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/goblin_rom.v 
+// Tcl Message: close [ open C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/ghost_rom.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/ghost_rom.v 
+// Tcl Message: close [ open C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/bowser_rom.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/bowser_rom.v 
+// I (cs): Define Modules: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (I)
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Modules"); // I (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, bowser_rom.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, bowser_rom.v]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, bowser_rom.v]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ghost_rom.v]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ghost_rom.v]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, goblin_rom.v]", 5, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, goblin_rom.v]", 5, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("goblin_rom.v", 462, 191); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 6); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 5); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+selectCodeEditor("enemy1_rom.v", 478, 127); // bP (w, cs)
+typeControlKey((HResource) null, "enemy1_rom.v", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 5); // m (l, cs)
+selectCodeEditor("bowser_rom.v", 649, 12); // bP (w, cs)
+typeControlKey((HResource) null, "bowser_rom.v", 'v'); // bP (w, cs)
+selectCodeEditor("bowser_rom.v", 1183, 679); // bP (w, cs)
+selectCodeEditor("bowser_rom.v", 82, 33); // bP (w, cs)
+selectCodeEditor("bowser_rom.v", 88, 9); // bP (w, cs)
+selectCodeEditor("bowser_rom.v", 88, 9, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("bowser_rom.v", 228, 90); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 4); // m (l, cs)
+selectCodeEditor("enemy1_rom.v", 629, 18); // bP (w, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 72, 227); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 72, 227, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("integrated_game.v", 386, 340); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("integrated_game.v", 162, 230); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 304, 282); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 183, 235); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 437, 282); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 302, 338); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 158 MB (+1574kb) [01:32:34]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 2); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 64, 337); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 64, 337, false, false, false, false, true); // bP (w, cs) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 4); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "enemy1_rom.v", 1); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 123, 415); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 397, 178); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+selectCodeEditor("bowser_rom.v", 226, 64); // bP (w, cs)
+typeControlKey((HResource) null, "bowser_rom.v", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+typeControlKey((HResource) null, "ghost_rom.v", 'v'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+typeControlKey((HResource) null, "goblin_rom.v", 'v'); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 214, 569); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+selectCodeEditor("ghost_rom.v", 2, 10); // bP (w, cs)
+typeControlKey((HResource) null, "ghost_rom.v", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+typeControlKey((HResource) null, "goblin_rom.v", 'v'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+typeControlKey((HResource) null, "ghost_rom.v", 'v'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+selectCodeEditor("bowser_rom.v", 349, 612); // bP (w, cs)
+selectCodeEditor("bowser_rom.v", 99, 683); // bP (w, cs)
+typeControlKey((HResource) null, "bowser_rom.v", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+typeControlKey((HResource) null, "ghost_rom.v", 'v'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+typeControlKey((HResource) null, "goblin_rom.v", 'v'); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 189, 229); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 207, 242); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 137, 143); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+selectCodeEditor("ghost_rom.v", 219, 137); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+selectCodeEditor("goblin_rom.v", 396, 109); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, enemy2_rom.v]", 2, false); // B (F, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy2_rom.v] -no_script -reset -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy2_rom.v 
+// Tcl Message: file delete -force C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy2_rom.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rectangle_rom (obstacle_rom.v)]", 20, false); // B (F, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/obstacle_rom.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/obstacle_rom.v 
+// Tcl Message: file delete -force C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/obstacle_rom.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, enemy1_rom (enemy1_rom.v)]", 19, false); // B (F, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy1_rom.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy1_rom.v 
+// Tcl Message: file delete -force C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/enemy1_rom.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bowser_rom (ghost_rom.v)]", 18, false); // B (F, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+selectCodeEditor("ghost_rom.v", 73, 0); // bP (w, cs)
+selectCodeEditor("ghost_rom.v", 73, 0, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("ghost_rom.v", 396, 220); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+selectCodeEditor("goblin_rom.v", 108, 3); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 108, 3, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("goblin_rom.v", 441, 259); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 324, 230); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 217, 212); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 231, 232); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 224, 214); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 224, 214); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 229, 230); // bP (w, cs)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+selectCodeEditor("goblin_rom.v", 286, 227); // bP (w, cs)
+typeControlKey((HResource) null, "goblin_rom.v", 'v'); // bP (w, cs)
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 237, 232); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 237, 232, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 263, 228); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 230, 228); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 222, 247); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 222, 211); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+selectCodeEditor("bowser_rom.v", 87, 10); // bP (w, cs)
+selectCodeEditor("bowser_rom.v", 87, 10, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "bowser_rom.v", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+selectCodeEditor("goblin_rom.v", 78, 14); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 78, 14, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "goblin_rom.v", 'v'); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 244, 157); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 142, 128); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 267, 160); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 138, 388); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 138, 388, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 226, 392); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+// [GUI Memory]: 167 MB (+1314kb) [01:37:21]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+selectCodeEditor("goblin_rom.v", 90, 9); // bP (w, cs)
+selectCodeEditor("goblin_rom.v", 308, 116); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ghost_rom.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bowser_rom.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 69, 328); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 216, 143); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 216, 143, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("integrated_game.v", 606, 179); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("integrated_game.v", 270, 246); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 13:47:09 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 13:47:09 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 98 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 46 seconds
+selectCodeEditor("integrated_game.v", 94, 388); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 55, 496); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 56, 395); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("integrated_game.v", 54, 282); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 170, 284); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 125, 280); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 135, 300); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("integrated_game.v", 170, 421); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 162, 400); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 176, 430); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 180, 416); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 31, 400); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 466, 416); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,264 MB. GUI used memory: 95 MB. Current time: 12/4/24, 1:50:48 PM PKT
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), jsq_inst : jumping_mario (jump_gen.v)]", 11, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), jsq_inst : jumping_mario (jump_gen.v)]", 11, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("jump_gen.v", 200, 279); // bP (w, cs)
+selectCodeEditor("jump_gen.v", 200, 279, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("jump_gen.v", 527, 283); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: [Wed Dec  4 13:51:00 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 13:51:00 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectCodeEditor("integrated_game.v", 220, 242); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 631, 199); // bP (w, cs)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cs)
+selectButton("OptionPane.button", "Do Not Cancel Process"); // JButton (v, B)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cs)
+// bz (cs):  Resetting Runs : addNotify
+selectButton("OptionPane.button", "Cancel Process"); // JButton (v, B)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 173, 198); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 174, 218); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 128, 166); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 154, 187); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 153, 183); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 323, 217); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 54, 62); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 113, 178); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 137, 195); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 354, 324); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 408, 200); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 330, 372); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 303, 430); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 154, 313); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 311, 179); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("integrated_game.v", 703, 216); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 561, 326); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 53, 77); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 237, 202); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 95, 556); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 75, 266); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 660, 320); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// f (cs): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 13:52:52 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 13:52:52 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 66 seconds
+selectCodeEditor("integrated_game.v", 526, 286); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("integrated_game.v", 265, 235); // bP (w, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 23 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("integrated_game.v", 132, 326); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 195, 337); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jump_gen.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 0); // m (l, cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec  4 13:55:57 2024] Launched synth_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Wed Dec  4 13:55:57 2024] Launched impl_1... Run output will be captured here: C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 108 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mu08984/Desktop/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz (cs)

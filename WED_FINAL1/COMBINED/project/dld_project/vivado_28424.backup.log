@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Dec  6 14:20:13 2024
+# Process ID: 28424
+# Current directory: C:/Users/mu08984/Desktop/COMBINED/wasiq_magic/dld_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32856 C:\Users\mu08984\Desktop\COMBINED\wasiq_magic\dld_project\dld_project.xpr
+# Log file: C:/Users/mu08984/Desktop/COMBINED/wasiq_magic/dld_project/vivado.log
+# Journal file: C:/Users/mu08984/Desktop/COMBINED/wasiq_magic/dld_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mu08984/Desktop/COMBINED/wasiq_magic/dld_project/dld_project.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/mu08984/Desktop/wasiq_magic/dld_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  6 14:20:26 2024...

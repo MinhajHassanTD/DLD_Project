@@ -1,0 +1,1587 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 8568
+License: Customer
+
+Current time: 	Thu Dec 12 22:35:10 PKT 2024
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	salty
+User home directory: C:/Users/salty
+User working directory: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/salty/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/salty/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/salty/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/vivado.log
+Vivado journal file location: 	C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/vivado.jou
+Engine tmp dir: 	C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/.Xil/Vivado-8568-DESKTOP-CE1DO9G
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,010 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  2315 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,010 MB. GUI used memory: 47 MB. Current time: 12/12/24, 10:35:12 PM PKT
+// Opening Vivado Project: C:\Users\salty\OneDrive\Desktop\WED_FINAL1\COMBINED\wasiq_magic\dld_project\dld_project.xpr. Version: Vivado v2020.1 
+// bz (cs):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2328 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1414 ms.
+// Tcl Message: open_project C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/mu08984/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 87 MB (+89013kb) [00:01:46]
+// [Engine Memory]: 1,010 MB (+908098kb) [00:01:46]
+// [GUI Memory]: 106 MB (+15322kb) [00:01:49]
+// WARNING: HEventQueue.dispatchEvent() is taking  1901 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2428 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 10217 ms. Increasing delay to 3000 ms.
+// Project name: dld_project; location: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:57 . Memory (MB): peak = 1026.828 ; gain = 0.000 
+dismissDialog("Open Project"); // bz (cs)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 401ms to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1158 ms. Increasing delay to 3474 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1574 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1406 ms.
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  1155 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1143 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2987 ms. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2017 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3899 ms. Increasing delay to 11697 ms.
+// [GUI Memory]: 117 MB (+5557kb) [00:02:32]
+// WARNING: HEventQueue.dispatchEvent() is taking  1631 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2744 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 718ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1184 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2534 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: updateGUI() is taking  1319 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1320 ms.
+// WARNING: updateGUI() is taking  1943 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2176 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1306 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1109 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6289 ms. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 24 ms. Decreasing delay to 2024 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 9265 ms. Increasing delay to 27795 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4727 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1083 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8320 ms. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 21221 ms. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4752 ms. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8950 ms. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 23 ms. Decreasing delay to 2023 ms.
+// PAPropertyPanels.initPanels (TopLevelModule.v) elapsed time: 0.5s
+// Elapsed time: 236 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true); // B (F, cs) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1043 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1862 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 980 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1620 ms. Increasing delay to 4860 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3747 ms. Increasing delay to 11241 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 52 ms. Decreasing delay to 2052 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1027 ms. Increasing delay to 3081 ms.
+// [GUI Memory]: 130 MB (+7393kb) [00:08:34]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1885 ms. Increasing delay to 5655 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1228 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6457 ms. Increasing delay to 19371 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 26 ms. Decreasing delay to 2026 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1040 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 7570 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 10068 ms. Increasing delay to 30204 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 846 ms. Decreasing delay to 2846 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1731 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2238 ms. Increasing delay to 6714 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,010 MB. GUI used memory: 72 MB. Current time: 12/12/24, 11:05:13 PM PKT
+// WARNING: HEventQueue.dispatchEvent() is taking  2242 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 12105 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5114 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 8409 ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5250 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8318 ms. Increasing delay to 24954 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2240 ms.
+// Elapsed time: 1883 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 25 ms. Decreasing delay to 2025 ms.
+// bz (cs):  Open Elaborated Design : addNotify
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: TopLevelModule 
+// WARNING: HEventQueue.dispatchEvent() is taking  4354 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2007 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5152 ms. Increasing delay to 10000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4419 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1560 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,041 MB. GUI used memory: 73 MB. Current time: 12/12/24, 11:13:23 PM PKT
+// TclEventType: ELABORATE_START
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 11961 ms. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,072 MB. GUI used memory: 72 MB. Current time: 12/12/24, 11:13:49 PM PKT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5686 ms. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,159 MB. GUI used memory: 72 MB. Current time: 12/12/24, 11:14:14 PM PKT
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// [Engine Memory]: 1,159 MB (+102860kb) [00:40:31]
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1020 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,159 MB. GUI used memory: 73 MB. Current time: 12/12/24, 11:14:33 PM PKT
+// Xgd.load filename: C:/Xilinx/Vivado/2020.1/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_floorplan.xgd elapsed time: 1.2s
+// WARNING: HEventQueue.dispatchEvent() is taking  3364 ms.
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2020.1/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 8.9s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 10s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 3.3s
+// [Engine Memory]: 1,225 MB (+8522kb) [00:40:47]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6097 ms. Increasing delay to 10000 ms.
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (TopLevelModule.v) elapsed time: 0.3s
+// [GUI Memory]: 148 MB (+11977kb) [00:40:54]
+// WARNING: HEventQueue.dispatchEvent() is taking  7157 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 1288.746 ; gain = 241.395 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'TopLevelModule' [C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.srcs/sources_1/new/TopLevelModule.v:3] 
+// Tcl Message: 	Parameter START_SCREEN_STATE bound to: 2'b00  	Parameter GAME_STATE bound to: 2'b01  	Parameter END_SCREEN_STATE bound to: 2'b10  
+// Tcl Message: 	Parameter div_value bound to: 1 - type: integer  
+// Tcl Message: 	Parameter HD bound to: 640 - type: integer  	Parameter HF bound to: 16 - type: integer  	Parameter HB bound to: 48 - type: integer  	Parameter HR bound to: 96 - type: integer  	Parameter VD bound to: 480 - type: integer  	Parameter VF bound to: 10 - type: integer  	Parameter VB bound to: 33 - type: integer  	Parameter VR bound to: 2 - type: integer  
+// Tcl Message: 	Parameter X_MAX bound to: 639 - type: integer  	Parameter Y_MAX bound to: 479 - type: integer  	Parameter BG_RED bound to: 4'b0000  	Parameter BG_GREEN bound to: 4'b0000  	Parameter BG_BLUE bound to: 4'b0000  	Parameter MARIO_WIDTH bound to: 56 - type: integer  	Parameter MARIO_HEIGHT bound to: 64 - type: integer  	Parameter JUMP_HEIGHT bound to: 245 - type: integer  	Parameter GRAVITY_DELAY bound to: 0 - type: integer  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:45 . Memory (MB): peak = 1394.402 ; gain = 347.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:53 . Memory (MB): peak = 1394.402 ; gain = 347.051 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:53 . Memory (MB): peak = 1394.402 ; gain = 347.051 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.181 . Memory (MB): peak = 1394.402 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.srcs/constrs_1/new/vga_connector.xdc] Finished Parsing XDC File [C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.srcs/constrs_1/new/vga_connector.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1483.867 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// WARNING: HEventQueue.dispatchEvent() is taking  1035 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1494 ms.
+// OpenDesignTask elapsed time: 202.5s
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:47 ; elapsed = 00:01:32 . Memory (MB): peak = 1483.867 ; gain = 436.516 
+// Tcl Message: 57 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:03:17 . Memory (MB): peak = 1483.867 ; gain = 457.039 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 103 MB. Current time: 12/12/24, 11:15:03 PM PKT
+// 'dZ' command handler elapsed time: 207 seconds
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2911 ms. Increasing delay to 8733 ms.
+// Elapsed time: 208 seconds
+dismissDialog("Open Elaborated Design"); // bz (cs)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F (aI, cs)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 37 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 4, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 4, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1052 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v)]", 11, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v)]", 11, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// [GUI Memory]: 155 MB (+233kb) [00:42:05]
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F (aI, cs)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F (aI, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("integrated_system.v", 148, 283); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 165, 284); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 207, 315); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 481, 410); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("integrated_system.v", 237, 361); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 181, 380); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("integrated_system.v", 622, 206); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 139, 232); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 280, 259); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: updateGUI() is taking  1706 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1765 ms.
+// Elapsed time: 19 seconds
+selectCodeEditor("integrated_system.v", 134, 298); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,283 MB. GUI used memory: 101 MB. Current time: 12/12/24, 11:17:36 PM PKT
+// Elapsed time: 14 seconds
+selectCodeEditor("integrated_system.v", 470, 22); // bP (w, cs)
+// [Engine Memory]: 1,287 MB (+321kb) [00:43:49]
+// WARNING: HEventQueue.dispatchEvent() is taking  1515 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6209 ms. Increasing delay to 18627 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 71 ms. Decreasing delay to 2071 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2667 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2788 ms. Increasing delay to 8364 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 1449ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1449 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 13342 ms. Increasing delay to 10000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3405 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1105 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 13457 ms. Increasing delay to 40371 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5265 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5612 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6216 ms. Increasing delay to 10000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3929 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 511 ms. Decreasing delay to 2511 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1667 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7638 ms. Increasing delay to 22914 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5282 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 89 ms. Decreasing delay to 2089 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4617 ms. Increasing delay to 13851 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 40 ms. Decreasing delay to 2040 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1280 ms. Increasing delay to 3840 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2708 ms. Increasing delay to 8124 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1419 ms.
+// Elapsed time: 526 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 1); // m (l, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1660 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1650 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 95 MB. Current time: 12/12/24, 11:47:37 PM PKT
+// WARNING: HEventQueue.dispatchEvent() is taking  6698645 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5128 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 94 MB. Current time: 12/13/24, 1:44:19 AM PKT
+// Elapsed time: 8271 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cs)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+// bz (cs):  Close : addNotify
+// TclEventType: DESIGN_CLOSE
+// Engine heap size: 1,287 MB. GUI used memory: 125 MB. Current time: 12/13/24, 1:44:32 AM PKT
+// WARNING: HEventQueue.dispatchEvent() is taking  4433 ms.
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 70 MB. Current time: 12/13/24, 1:44:32 AM PKT
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1486.883 ; gain = 3.016 
+dismissDialog("Close"); // bz (cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 13, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), digit_rom : score_digit_rom (score_digit_rom.v)]", 14, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("integrated_system.v", 266, 197); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 246, 126); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 282, 232); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 101, 242); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+// Elapsed time: 30 seconds
+selectCodeEditor("integrated_game.v", 309, 352); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectCodeEditor("integrated_game.v", 451, 194); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 167, 206); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 480, 142); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 159, 164); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1417 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2425 ms.
+// Elapsed time: 28 seconds
+selectCodeEditor("integrated_game.v", 317, 147); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 293, 306); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 294, 312); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("integrated_game.v", 163, 150); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectCodeEditor("integrated_system.v", 116, 87); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1717 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+// Elapsed time: 23 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e4 : scary_enemy_rom (scary_rom.v)]", 19, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e4 : scary_enemy_rom (scary_rom.v)]", 19, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e2 : laal_enemy_rom (goblin_rom.v)]", 17, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e2 : laal_enemy_rom (goblin_rom.v)]", 17, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e5 : dirt_enemy_rom (dirt_rom.v)]", 20, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e5 : dirt_enemy_rom (dirt_rom.v)]", 20, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("dirt_rom.v", 331, 128); // bP (w, cs)
+typeControlKey((HResource) null, "dirt_rom.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 3); // m (l, cs)
+typeControlKey((HResource) null, "goblin_rom.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "scary_rom.v", 2); // m (l, cs)
+selectCodeEditor("scary_rom.v", 277, 137); // bP (w, cs)
+typeControlKey((HResource) null, "scary_rom.v", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1278 ms.
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+// Elapsed time: 12 seconds
+selectCodeEditor("integrated_game.v", 141, 43); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 141, 43, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "integrated_game.v", 'c'); // bP (w, cs)
+// Elapsed time: 113 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+selectCodeEditor("integrated_game.v", 77, 415); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_game.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 150, 310); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("integrated_game.v", 67, 350); // bP (w, cs)
+typeControlKey(null, null, 'z');
+selectCodeEditor("integrated_game.v", 241, 331); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 142, 350); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 86, 294); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 85, 348); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 115, 337); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 65, 329); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("integrated_game.v", 156, 418); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("integrated_game.v", 284, 300); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("integrated_game.v", 461, 350); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("integrated_game.v", 279, 227); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 36 seconds
+selectCodeEditor("integrated_game.v", 322, 248); // bP (w, cs)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Dec 13 01:54:26 2024] Launched synth_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Fri Dec 13 01:54:26 2024] Launched impl_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aA
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Synthesis Failed: addNotify
+// Elapsed time: 62 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag (cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("integrated_system.v", 105, 145); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectCodeEditor("integrated_game.v", 151, 142); // bP (w, cs)
+selectCodeEditor("integrated_game.v", 151, 142, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("integrated_game.v", 372, 228); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectCodeEditor("integrated_system.v", 294, 239); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Dec 13 01:56:23 2024] Launched synth_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Fri Dec 13 01:56:23 2024] Launched impl_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1015 ms.
+selectCodeEditor("integrated_system.v", 214, 205); // bP (w, cs)
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  4727 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1531 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 348 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 7629 ms. Increasing delay to 10000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3238 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 183 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 24, true); // u (J, cs) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cs):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1483 ms.
+// Tcl Message: open_hw_manager 
+dismissDialog("Open Hardware Manager"); // bz (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (ds, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cs):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2020.1   **** Build date : May 27 2020 at 20:24:38     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ****** Xilinx cs_server v2020.1.0   **** Build date : May 14 2020-06:10:29     ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1486.883 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  12213 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AF304FA 
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2667.105 ; gain = 1180.223 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,886 MB. GUI used memory: 75 MB. Current time: 12/13/24, 2:06:08 AM PKT
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 1,887 MB (+562110kb) [03:32:07]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// Elapsed time: 28 seconds
+dismissDialog("Auto Connect"); // bz (cs)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 145 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 58 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 50 seconds
+selectCodeEditor("integrated_system.v", 234, 272); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 103, 364); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 164, 348); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+// PAPropertyPanels.initPanels (TopLevelModule.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,913 MB. GUI used memory: 76 MB. Current time: 12/13/24, 2:11:04 AM PKT
+// Elapsed time: 20 seconds
+selectCodeEditor("TopLevelModule.v", 216, 117); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 283, 196); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 322, 206); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 292ms to process. Increasing delay to 2000 ms.
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// WARNING: HEventQueue.dispatchEvent() is taking  1062 ms.
+typeControlKey(null, null, 'z');
+selectCodeEditor("TopLevelModule.v", 344, 189); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TopLevelModule.v", 252, 277); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 252, 277, false, false, false, false, true); // bP (w, cs) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("TopLevelModule.v", 447, 193); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Dec 13 02:12:15 2024] Launched synth_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Fri Dec 13 02:12:15 2024] Launched impl_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 2); // m (l, cs)
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  2791 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 7069 ms. Increasing delay to 10000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3139 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  2319 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5073 ms. Increasing delay to 10000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 515 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 2); // m (l, cs)
+// Elapsed time: 17 seconds
+selectCodeEditor("TopLevelModule.v", 68, 363); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 278, 222); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 272, 192); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 490, 183); // bP (w, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TopLevelModule.v", 56, 360); // bP (w, cs)
+typeControlKey((HResource) null, "TopLevelModule.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "TopLevelModule.v", 'v'); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 119, 269); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 134, 283); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 106, 344); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 49 seconds
+selectCodeEditor("TopLevelModule.v", 146, 273); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 110, 260); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("TopLevelModule.v", 178, 113); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectCodeEditor("TopLevelModule.v", 75, 311); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 75, 311, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("TopLevelModule.v", 484, 239); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Dec 13 02:23:39 2024] Launched synth_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Fri Dec 13 02:23:39 2024] Launched impl_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 612ms to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  1367 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  2552 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  2490 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 536 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2696.723 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 16 seconds
+// Elapsed time: 15 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 249 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 2); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 94, 162); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1091 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 84 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF304FA 
+// n (cs): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 34 seconds
+dismissDialog("Close Hardware Target"); // n (cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  4877 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  10800364 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5586 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 77 MB. Current time: 12/13/24, 5:39:51 AM PKT
+// WARNING: HTimer (StateMonitor Timer) is taking 5404313ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5404313 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  9335 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 75 MB. Current time: 12/13/24, 7:10:10 AM PKT
+// Elapsed time: 16245 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 2); // m (l, cs)
+selectCodeEditor("TopLevelModule.v", 238, 353); // bP (w, cs)
+selectCodeEditor("TopLevelModule.v", 17, 263); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("TopLevelModule.v", 178, 169); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+selectCodeEditor("integrated_system.v", 344, 233); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 0); // m (l, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("integrated_system.v", 182, 350); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 388, 58); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "integrated_system.v", 'v'); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 116, 96); // bP (w, cs)
+selectCodeEditor("integrated_system.v", 278, 149); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Dec 13 07:12:36 2024] Launched synth_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Fri Dec 13 07:12:36 2024] Launched impl_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1401 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1270 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5661 ms. Increasing delay to 10000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 805 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF304FA 
+// n (cs): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2273212 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  8772 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 80 MB. Current time: 12/13/24, 8:04:24 AM PKT
+// WARNING: HEventQueue.dispatchEvent() is taking  48629 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1231 ms.
+// Elapsed time: 2397 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cs)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 150 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 43 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 160 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 2); // m (l, cs)
+// Elapsed time: 95 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF304FA 
+// n (cs): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 99 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cs)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 178 seconds
+selectCodeEditor("TopLevelModule.v", 239, 344); // bP (w, cs)
+// Elapsed time: 17 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Dec 13 08:19:04 2024] Launched synth_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Fri Dec 13 08:19:04 2024] Launched impl_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+// WARNING: HEventQueue.dispatchEvent() is taking  1184 ms.
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1667 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1090 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1179 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  4639 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6758 ms. Increasing delay to 10000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 487 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 80 seconds
+selectCodeEditor("TopLevelModule.v", 101, 266); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Dec 13 08:28:59 2024] Launched synth_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Fri Dec 13 08:28:59 2024] Launched impl_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (J, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1179 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 76 MB. Current time: 12/13/24, 8:34:19 AM PKT
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5912 ms. Increasing delay to 10000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 483 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cs)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 1); // m (l, cs)
+selectCodeEditor("integrated_system.v", 173, 306); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 61 seconds
+selectCodeEditor("integrated_system.v", 183, 321); // bP (w, cs)
+// Elapsed time: 67 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz (cs)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Dec 13 08:39:56 2024] Launched synth_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/synth_1/runme.log [Fri Dec 13 08:39:56 2024] Launched impl_1... Run output will be captured here: C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  2688 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 475 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cs)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cs)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/salty/OneDrive/Desktop/WED_FINAL1/COMBINED/wasiq_magic/dld_project/dld_project.runs/impl_1/TopLevelModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bz (cs)
+// Elapsed time: 73 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1); // B (F, cs)
+// Elapsed time: 103 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), start_screen : top_startscreen (top_startscreen.v)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), start_screen : top_startscreen (top_startscreen.v)]", 3, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_startscreen.v", 3); // m (l, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 9); // B (F, cs)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 9, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 9, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v)]", 9); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v)]", 16); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v)]", 16, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v)]", 16, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 25 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v)]", 16); // B (F, cs)
+// Elapsed time: 50 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), jsq_inst : jumping_mario (jump_gen.v)]", 17); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), jsq_inst : jumping_mario (jump_gen.v)]", 17, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), jsq_inst : jumping_mario (jump_gen.v)]", 17, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 18 seconds
+selectCodeEditor("jump_gen.v", 204, 255); // bP (w, cs)
+selectCodeEditor("jump_gen.v", 204, 255, false, false, false, false, true); // bP (w, cs) - Double Click
+// Elapsed time: 126 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 0); // m (l, cs)
+// Elapsed time: 38 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// WARNING: HEventQueue.dispatchEvent() is taking  1478 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1280 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1181 ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1543 ms.
+// Elapsed time: 293 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), P1 : PS2 (PS2.v)]", 2); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), debouncer : debounce (debouncer.v)]", 17, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), debouncer : debounce (debouncer.v)]", 17, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("debouncer.v", 378, 134); // bP (w, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_startscreen.v", 1); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 77 MB. Current time: 12/13/24, 9:04:24 AM PKT
+// Elapsed time: 455 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), debouncer : debounce (debouncer.v)]", 17, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), debouncer : debounce (debouncer.v)]", 17, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 58 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_startscreen.v", 1); // m (l, cs)
+// Elapsed time: 197 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 150 seconds
+selectCodeEditor("TopLevelModule.v", 245, 145); // bP (w, cs)
+// Elapsed time: 421 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jump_gen.v", 5); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 0); // m (l, cs)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), end_screen : top_endscreen (top_endscreen.v)]", 21, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), end_screen : top_endscreen (top_endscreen.v)]", 21, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), end_screen : top_endscreen (top_endscreen.v)]", 21, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), end_screen : top_endscreen (top_endscreen.v), c : v_counter (v_counter.v)]", 24, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_endscreen.v", 6); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jump_gen.v", 6); // m (l, cs)
+selectCodeEditor("jump_gen.v", 26, 62); // bP (w, cs)
+selectCodeEditor("jump_gen.v", 419, 101); // bP (w, cs)
+selectCodeEditor("jump_gen.v", 395, 131); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 0); // m (l, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  3067 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 78 MB. Current time: 12/13/24, 9:34:29 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 79 MB. Current time: 12/13/24, 10:04:29 AM PKT
+// Elapsed time: 3791 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 4); // m (l, cs)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 4, false, true); // m (l, cs) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // K (aI, cs)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 20, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 20, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 20, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e2 : laal_enemy_rom (goblin_rom.v)]", 24, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e2 : laal_enemy_rom (goblin_rom.v)]", 24, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 0); // m (l, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("TopLevelModule.v", 268, 194, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectCodeEditor("TopLevelModule.v", 183, 161); // bP (w, cs)
+// Elapsed time: 56 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "goblin_rom.v", 7); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 0); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 79 MB. Current time: 12/13/24, 10:34:30 AM PKT
+// Elapsed time: 592 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_startscreen.v", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_game.v", 3); // m (l, cs)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 4); // m (l, cs)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_game.v", 5); // m (l, cs)
+// Elapsed time: 36 seconds
+selectCodeEditor("integrated_game.v", 253, 220); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 79 MB. Current time: 12/13/24, 11:04:30 AM PKT
+// Elapsed time: 2516 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLevelModule.v", 0); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 79 MB. Current time: 12/13/24, 11:34:31 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 79 MB. Current time: 12/13/24, 12:04:31 PM PKT
+// Elapsed time: 3857 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "integrated_system.v", 4); // m (l, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e3 : ghost_enemy_rom (ghost_rom.v)]", 25, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v), e3 : ghost_enemy_rom (ghost_rom.v)]", 25, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 88 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 20, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 20, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 20, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLevelModule (TopLevelModule.v), game : top_game (top_game.v), int_sys_inst : integrated_system (integrated_system.v), ipg_inst : integrated_pixel_gen (integrated_game.v)]", 20, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 80 MB. Current time: 12/13/24, 12:34:31 PM PKT
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AF304FA 
+// n (cs): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 80 MB. Current time: 12/13/24, 1:04:32 PM PKT

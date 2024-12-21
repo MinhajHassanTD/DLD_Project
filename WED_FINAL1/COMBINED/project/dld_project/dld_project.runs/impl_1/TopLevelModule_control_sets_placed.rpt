@@ -1,0 +1,99 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Dec 13 08:45:54 2024
+| Host         : DESKTOP-CE1DO9G running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TopLevelModule_control_sets_placed.rpt
+| Design       : TopLevelModule
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    21 |
+|    Minimum number of control sets                        |    21 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   105 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    21 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |    10 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              59 |           25 |
+| No           | No                    | Yes                    |              32 |           10 |
+| No           | Yes                   | No                     |              50 |           26 |
+| Yes          | No                    | No                     |               8 |            4 |
+| Yes          | No                    | Yes                    |               8 |            3 |
+| Yes          | Yes                   | No                     |              74 |           31 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------+----------------------------------------------------+----------------------------------------------------+------------------+----------------+--------------+
+|           Clock Signal           |                    Enable Signal                   |                  Set/Reset Signal                  | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------------+----------------------------------------------------+----------------------------------------------------+------------------+----------------+--------------+
+|  game/a/clk_d_reg_0              |                                                    |                                                    |                1 |              1 |         1.00 |
+|  start_screen/a/clk_d_reg_0      |                                                    |                                                    |                2 |              3 |         1.50 |
+| ~P1/db_clk/r3_reg_0              | P1/cnt                                             | P1/cnt[3]_i_1_n_0                                  |                1 |              4 |         4.00 |
+|  game/score_inst/clk_1Hz_reg_n_0 | game/score_inst/tenth[3]_i_1_n_0                   | reset_reg_n_0                                      |                1 |              4 |         4.00 |
+|  game/score_inst/clk_1Hz_reg_n_0 | enable_game                                        | reset_reg_n_0                                      |                2 |              4 |         2.00 |
+|  end_screen/a/clk_d_reg_0        |                                                    |                                                    |                3 |              5 |         1.67 |
+|  clk_IBUF_BUFG                   | P1/oflag_i_1_n_0                                   |                                                    |                4 |              8 |         2.00 |
+| ~P1/db_clk/r3_reg_0              |                                                    |                                                    |                3 |              9 |         3.00 |
+|  end_screen/a/clk_d_reg_0        |                                                    | end_screen/b/count[9]_i_1__0_n_0                   |                7 |             10 |         1.43 |
+|  end_screen/a/clk_d_reg_0        | end_screen/b/E[0]                                  | end_screen/c/v_count[9]_i_1__1_n_0                 |                5 |             10 |         2.00 |
+|  game/a/clk_d_reg_0              |                                                    | game/b/count_reg[7]_0                              |                4 |             10 |         2.50 |
+|  game/a/clk_d_reg_0              | game/b/E[0]                                        | game/c/v_count[9]_i_1__0_n_0                       |                3 |             10 |         3.33 |
+|  start_screen/a/clk_d_reg_0      |                                                    | start_screen/b/count[9]_i_1_n_0                    |                9 |             10 |         1.11 |
+|  start_screen/a/clk_d_reg_0      | start_screen/b/E[0]                                | start_screen/c/v_count[9]_i_1_n_0                  |                5 |             10 |         2.00 |
+|  clk_IBUF_BUFG                   | game/debouncer/E[0]                                | game/int_sys_inst/jsq_inst/jumping2_out            |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG                   | game/int_sys_inst/ipg_inst/enemy1_x_reg1           | game/int_sys_inst/ipg_inst/enemy4_x_reg[9]_i_1_n_0 |                5 |             10 |         2.00 |
+|  clk_IBUF_BUFG                   | game/int_sys_inst/ipg_inst/enemy2_x_reg[9]_i_1_n_0 | game/int_sys_inst/ipg_inst/enemy4_x_reg[9]_i_1_n_0 |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG                   | game/int_sys_inst/ipg_inst/enemy5_x_reg[9]_i_1_n_0 | game/int_sys_inst/ipg_inst/enemy4_x_reg[9]_i_1_n_0 |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG                   |                                                    | game/debouncer/counter[19]_i_1_n_0                 |                6 |             20 |         3.33 |
+|  clk_IBUF_BUFG                   |                                                    | reset_reg_n_0                                      |               10 |             32 |         3.20 |
+|  clk_IBUF_BUFG                   |                                                    |                                                    |               16 |             41 |         2.56 |
++----------------------------------+----------------------------------------------------+----------------------------------------------------+------------------+----------------+--------------+
+
+
